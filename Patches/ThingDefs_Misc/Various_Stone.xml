@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>*/ThingDef[@Name="ChunkBase"]/drawerType</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[@Name="ChunkBase"]/thingClass</xpath>
+		<value>
+			<thingClass>ThingWithComps</thingClass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[@Name="ChunkBase"]</xpath>
+		<value>
+			<drawGUIOverlay>true</drawGUIOverlay>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[@Name="ChunkBase"]</xpath>
+		<value>
+			<comps>
+				<li Class="CompProperties_Forbiddable"/>
+			</comps>
+		</value>
+	</Operation>
+
+</Patch>
