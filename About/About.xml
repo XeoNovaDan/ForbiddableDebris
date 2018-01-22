@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Forbiddable Debris</name>
+	<name>[XND] Forbiddable Debris</name>
 	<author>XeoNovaDan</author>
-	<url></url>
+	<url>https://ludeon.com/forums/index.php?topic=38293.0</url>
 	<targetVersion>0.18.0</targetVersion>
 	<description>Makes it so that stone chunks and steel slag chunks can be forbidden by the player.</description>
 </ModMetaData>
