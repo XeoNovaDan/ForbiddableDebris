@@ -1,6 +1,6 @@
 <Manifest>
     <identifier>ForbiddableDebris</identifier>
     <version>1.0.2</version>
-    <manifestUri>https://rawgit.com/XeoNovaDan/ForbiddableDebris/master/About/Manifest.xml</manifestUri>
+    <manifestUri>https://cdn.jsdelivr.net/gh/XeoNovaDan/ForbiddableDebris/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/XeoNovaDan/ForbiddableDebris/releases</downloadUri>
 </Manifest>
